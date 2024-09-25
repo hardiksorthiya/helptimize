@@ -1,6 +1,9 @@
 
-
 @media only screen and (max-width: 1024px) {
+    form.seach-form .row {
+        width: 100%;
+        border-radius: 100px;
+    }
     .diamond-icon-box img {
         width: 50px;
     }
@@ -13,7 +16,7 @@
     .icon-why-6 {
         margin: 50px 0px 0 140px !important;
     }
-    .icon-why-8 {
+    .icon-why-8, .icon-why-7 {
         margin: 30px 0 30px 0 !important;
     }
     .icon-why-9 {
@@ -25,6 +28,9 @@
     }
     .card-hp img, .card-hp p {
         width: 80% !important;
+    }
+    .title {
+        font-size: 32px;
     }
 }
 
@@ -46,7 +52,8 @@
         width: 100% !important;
     }
     h1.heading-sec-slider {
-        font-size: 46px !important;
+        font-size: 38px !important;
+        margin: 0 !important;
     }
     .services-slider-section {
         width: 70% !important;
@@ -62,6 +69,27 @@
     img.top-security-image {
         top: 10px !important;
         width: 20%;
+    }
+    form.seach-form .col-xl-6.col-lg-6.col-md-6 {
+        margin: 30px 0;
+    }
+    form.seach-form .row {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .services-slider-section {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+    .card-hp {
+        
+        width: 90% !important;
+        margin: 10px 0;
+    }
+    .card-hp img, .card-hp p {
+        width: 100% !important;
     }
     
     
@@ -80,9 +108,10 @@
         font-size: 32px !important;
     }
     .left-side-icons.position-relative {
-        display: flex;
+        display: grid;
         align-items: center;
         gap: 20px;
+        grid-template-columns: 2fr 1fr;
     }
     .image-section-about iframe {
         margin: 20px 0 !important;
@@ -131,6 +160,11 @@
     }
     .footer-slider-second {
         width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-direction: column !important;
+        align-items: center;
     }
     .footer-third-slide {
         font-size: 16px !important;
@@ -144,5 +178,88 @@
     }
     .footer-fifth-slide {
         font-size: 28px !important;
+    }
+    .icon-with-text-second p {
+        text-align: left !important;
+    }
+    .carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {
+        display: flex;
+        justify-content: center;
+    }
+    .icon-why-2 {
+        margin: 0;
+    }
+    h5.text-center {
+        font-size: 24px !important;
+        
+    }
+    .card-diamond p {
+        font-size: 18px !important;
+    }
+    img.top-security-image {
+        top: -30px !important;
+        width: 20%;
+    }
+    .step-part-background {
+        margin: 20px 20px 20px 0 !important;
+    }
+}
+
+
+@media only screen and (max-width: 330px) {
+    h1.heading-sec-slider {
+        font-size: 28px !important;
+    }
+    h5.text-center {
+        font-size: 20px !important;
+    }
+    .card-diamond p {
+        font-size: 16px !important;
+    }
+    .title {
+        font-size: 24px !important;
+    }
+    .hp-text, p, span {
+        font-size: 16px;
+    }
+    .effect-image-1 {
+        padding: 148px !important;
+    }
+    .left-side-icons.position-relative {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .center-side.position-relative {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .center-side.position-relative .d-flex.justify-content-evenly {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-why-1 {
+        margin: 0 !important;
+    }
+    .icon-why-2, .icon-why-8 {
+        margin: 15px 0 !important;
+    }
+    .icon-why-5 {
+        margin: 30px 0 !important;
+    }
+    .icon-why-7 {
+        margin: 0!important;
+    }
+    .icon-why-6 {
+        margin: 0 0 30px !important;
+    }
+    section.helptimize-opprtunity .d-flex {
+        display: flex !important;
+        flex-direction: column;
+    }
+    img.middle-arrow {
+        top: 31% !important;
     }
 }
